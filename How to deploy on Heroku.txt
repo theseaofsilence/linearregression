@@ -1,0 +1,9 @@
+Step1: Create a new conda environment
+	conda create -n linearapp python==3.6.9
+Step2: Install the requirements file
+	pip install -r requirements.txt
+Step3: Create a file name as Procfile
+	There is no extension for this Procfile
+	P should be capital
+	put web: gunicorn app:app in Procfile
+Step4: Initialise your project as git project
