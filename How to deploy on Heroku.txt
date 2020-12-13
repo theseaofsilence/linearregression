@@ -7,3 +7,16 @@ Step3: Create a file name as Procfile
 	P should be capital
 	put web: gunicorn app:app in Procfile
 Step4: Initialise your project as git project
+	right click in the folder and select git bash here
+	then run below commands:
+	$git init   					(It initialize the local git)
+	$git add . 					(it tracks all the files in the folder)
+	$git status 				(it shows us the status of the files in the folder that all files have been added to track)
+	$git commit -m "initial commit"		(whatever the code I have developed so file keep a file copy with you - keeps a separate version for us)
+	$ heroku create				(this will create new app on heroku)
+	$git remote -v
+	$git push heroku master			
+
+
+THis is my app URL
+https://protected-temple-13139.herokuapp.com
